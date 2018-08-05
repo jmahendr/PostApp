@@ -9,7 +9,7 @@ This project uses the following
  
 
 
-### Getting Started
+## Getting Started
 
 ```
 > git clone https://github.com/jmahendr/PostApp.git
@@ -17,6 +17,8 @@ This project uses the following
 > npm install
 > npm start
 ```
+
+Launch browser to http://localhost:8080 to view the completed project
 
 This repo is a fork from 
 > git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
