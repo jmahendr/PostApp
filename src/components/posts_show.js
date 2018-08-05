@@ -11,6 +11,9 @@ class PostsShow extends Component {
         this.props.fetchPost(id);
     }
 
+    //Here we are passing an callback to action creator.
+    //the action creator will execute the action and then invoke the callback passed to it.
+    //with this approach, we navigate back to the index page only after the delete is performed.
     onDeleteClick() {
         const { id } = this.props.match.params;
         this.props.deletePost(id, () => {
