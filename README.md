@@ -13,7 +13,7 @@ This project uses the following
 
 ```
 > git clone https://github.com/jmahendr/PostApp.git
-> cd ReduxSimpleStarter
+> cd PostApp
 > npm install
 > npm start
 ```
